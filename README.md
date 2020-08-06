@@ -23,7 +23,7 @@ Class Instructor/Digital Nomad
 
 Ryan Caplette
 
-Teaching Assistants/Digital Nomads
+Teaching Assistants/Also Nomads
 
 Dan Kral
 Matt Tocellini
