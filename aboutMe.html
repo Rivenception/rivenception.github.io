@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://code.energy/wp-content/uploads/code_energy_favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/CSS/style_solved.css">
+    <title>About Me</title>
+</head>
+
+<body>
+
+    <header>
+        <!--Site Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <section class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html"> RICHARD MINGIONE<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <!--Header Dropdowns-->
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutMe.html">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">portfolio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Uconn Classwork</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <!--Uconn Classwork Nav Links-->
+                            <a class="dropdown-item" href="https://github.com/Rivenception/Homework_One" target="_blank"
+                                alt="Homework One Repo">Homework One Repo</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://rivenception.github.io/Homework_One/" target="_blank"
+                                alt="Homework One">Homework One</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solo Work</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!--Solo Work Nav Links-->
+                            <a class="dropdown-item" href="https://rivenception.github.io/SoloPineHomes/"
+                                target="_blank" alt="Solo Pine Homes">Solo Pine Homes</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/rick-mingione-2b535047/" target="_blank"
+                            alt="LinkedIn Link">
+                            <img src="assets/Images/Favicons/fa-linkedin.png" class="fa-icon-size">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Rivenception" target="_blank" alt="GitHub Link">
+                            <img src="assets/Images/Favicons/fa-github.png" class="fa-icon-size">
+                        </a>
+                    </li>
+                    <!--Contact Form-->
+                    <li>
+                        <div class="nav-item">
+                            <a href="" class="nav-link" data-toggle="modal" data-target="#modalContactForm">
+                                <img src="assets/Images/Favicons/fa-email.png" class="fa-icon-size">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <!--Contact Me Form-->
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">
+                        Richard Mingione
+                        <br />
+                        15 Forest Glen Cir, Apt#10
+                        <br />
+                        Middletown, CT, 06457
+                        <br />
+                        rich.mingione@gmail.com
+                      </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                        <i class="fas fa-user prefix grey-text"></i>
+                        <input type="text" id="form34" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                    </div>
+
+                    <div class="md-form mb-5">
+                        <i class="fas fa-envelope prefix grey-text"></i>
+                        <input type="email" id="form29" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                    </div>
+
+                    <div class="md-form mb-5">
+                        <i class="fas fa-tag prefix grey-text"></i>
+                        <input type="text" id="form32" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                    </div>
+
+                    <div class="md-form">
+                        <i class="fas fa-pencil prefix grey-text"></i>
+                        <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                        <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                    </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--ReadMe Section-->
+    <section class="container row">
+        <div class="offset-2 col-md-8 justify-center-center">
+            <br>
+            <br>
+            <br>
+            <h5><strong>about me</strong></h5>
+            <br>
+            <p>I have a dual B.A. in Economics and Philosophy. My favorite class was Modal Logic. Currently I'm a Sr.
+                Program Manager for an airline seating company.
+                I'm a self-taught rhythm guitarist and avid board gamer. I occasionally sing a tone deaf tune to my
+                roommate's cat, Gabby. I became interested in coding a few
+                years ago finished free courses on Code Academy for Python and SQL. Now I'm looking to expand on that
+                interest towards a more fulfilling career. I'd like to someday own my own
+                business or develop some passive income streams.
+                <br>
+                <br>
+                I'm currently enrolled in a Uconn Coding Boot Camp to learn the foundational knowledge needed to pursue
+                my career and personal interests.
+            </p>
+    </section>
+
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
