@@ -147,9 +147,3 @@ a {
   height: 100%;
   border: none;
 }
-
-@media (min-width: 1200px) {
-  .card-deck {
-  max-width: 800px;
-}
-}
