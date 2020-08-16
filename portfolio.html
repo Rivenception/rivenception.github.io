@@ -18,6 +18,7 @@
       type="text/css"
       href="./assets/CSS/style_solved.css"
     />
+    <meta property="og:title" property="og:description" property="og:image" />
     <title>Portfolio</title>
   </head>
 
@@ -49,63 +50,20 @@
           <!--Header Dropdowns-->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="./aboutMe.html">about</a>
+              <a class="nav-link" href="./aboutMe.html">
+                <img
+                src="assets/Images/Favicons/fa-aboutme.png"
+                class="fa-icon-size"
+                /> about
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">portfolio</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Uconn Classwork</a
-              >
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <!--Uconn Classwork Nav Links-->
-                <a
-                  class="dropdown-item"
-                  href="https://github.com/Rivenception/Homework_One"
-                  target="_blank"
-                  alt="Homework One Repo"
-                  >Homework One Repo</a
-                >
-                <div class="dropdown-divider"></div>
-                <a
-                  class="dropdown-item"
-                  href="https://rivenception.github.io/Homework_One/"
-                  target="_blank"
-                  alt="Homework One"
-                  >Homework One</a
-                >
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Solo Work</a
-              >
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <!--Solo Work Nav Links-->
-                <a
-                  class="dropdown-item"
-                  href="https://rivenception.github.io/SoloPineHomes/"
-                  target="_blank"
-                  alt="Solo Pine Homes"
-                  >Solo Pine Homes</a
-                >
-              </div>
+              <a class="nav-link" href="./portfolio.html">
+                <img
+                src="assets/Images/Favicons/fa-briefcase.png"
+                class="fa-icon-size rounded"
+                /> portfolio
+              </a>
             </li>
 
             <li class="nav-item">
@@ -118,7 +76,7 @@
                 <img
                   src="assets/Images/Favicons/fa-linkedin.png"
                   class="fa-icon-size"
-                />
+                /> LinedIn
               </a>
             </li>
             <li class="nav-item">
@@ -131,7 +89,7 @@
                 <img
                   src="assets/Images/Favicons/fa-github.png"
                   class="fa-icon-size"
-                />
+                /> GitHub
               </a>
             </li>
             <!--Contact Form-->
@@ -146,7 +104,7 @@
                   <img
                     src="assets/Images/Favicons/fa-email.png"
                     class="fa-icon-size"
-                  />
+                  /> Contact
                 </a>
               </div>
             </li>
@@ -232,50 +190,57 @@
       </div>
     </div>
 
+    <!--Creates Website Snapshots for Portfolio Cards-->
+
     <!--Portfolio Cards-->
     <div class="row">
       <section class="container col-12">
         <div class="card mx-auto" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+          <img class="card-img-top" src="./assets/images/horiseon.png">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Code Refactor</strong></h5>
+              <p class="card-text">
+                As a beginner introduction to html refactoring we were tasked with
+                an HTML file and "cleaning up" the code for the need of a client.
+              </p>
+              <a
+                href="https://rivenception.github.io/Homework_One/"
+                class="btn btn-primary"
+                >Site</a
+              >
+              <a
+                href="https://github.com/Rivenception/Homework_One"
+                class="btn btn-primary"
+                >Github</a
+              >
+            </div>
         </div>
       </section>
       <section class="container col-12">
         <div class="card mx-auto" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+          <img class="card-img-top" src="./assets/images/Solo Pine Homes.png">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Solo Pine Homes</strong></h5>
+              <p class="card-text">
+                A side project for a friend/client to expand his own real estate
+                business.
+              </p>
+              <a
+                href="https://rivenception.github.io/SoloPineHomes/"
+                class="btn btn-primary"
+                >Site</a
+              >
+              <a
+                href="https://github.com/Rivenception/SoloPineHomes"
+                class="btn btn-primary"
+                >GitHub</a
+              >
+            </div>
         </div>
       </section>
-      <section class="container col-12">
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </section>
-    </div>
 
     <!--Bootstrap Scripts-->
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
