@@ -8,6 +8,10 @@ Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
 */
 
+.wrapper {
+  padding: 30px;
+}
+
 body {
   padding: 0;
   margin: 0;
